@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Container"
+    android:layout_width="match_parent"
+    android:background="@drawable/ii"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/Container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ToggleButton
+            android:id="@+id/discover"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textOff="Scan for devices"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textOn="Stop scan" />
+
+        <Button
+            android:id="@+id/listen_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Start Listen" />
+
+        <Button
+            android:id="@+id/Start_ply"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Start"
+            android:textAlignment="center"
+            android:visibility="invisible" />
+
+        <ListView
+            android:id="@+id/discovered_devices_list"
+            android:layout_width="match_parent"
+            android:layout_height="392dp"
+            android:layout_weight="1" >
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>

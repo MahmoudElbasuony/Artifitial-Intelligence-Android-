@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eat &amp; Beat</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aboutinfo">About Game</string>
+    <string name="title_activity_chooseoption">Options</string>
+    <string name="title_activity_mainactivity">Eat &amp; Beat</string>
+    <string name="title_activity_sndlyot">Main Menu</string>
+    <string name="title_activity_thrdlyt">Modes</string>
+    <string name="title_activity_aa">MainActivity</string>
+    <string name="title_activity_scores">Scores</string>
+    <string name="title_activity_remote__connect__load">Loading...</string>
+
+</resources>
